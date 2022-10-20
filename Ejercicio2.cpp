@@ -9,14 +9,12 @@ bool anagrama(string, string);
 
 int main()
 {
-    bool valor;
     string s, t;
 
     cin>>s;
     cin>>t;
 
-    valor = anagrama(s,t);
-    cout<<valor;
+    cout<<anagrama(s,t);
 
     return 0;
 }
